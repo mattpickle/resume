@@ -366,6 +366,9 @@ REFERENCES
   font-size: 1.2em;
   text-align: justify;
 }
+.reference-item .description span{
+  color: #F0563D;
+}
 /*******************************************
 MEDIA
 *******************************************/
