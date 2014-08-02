@@ -331,6 +331,42 @@ HOBBIES
   left: 7px;
 }
 /*******************************************
+REFERENCES
+*******************************************/
+.reference-item{
+  width: 100%;
+  float: left;
+}
+.reference-item .icon{
+  padding: 10px;
+  border-right: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  opacity: 0.2;
+}
+.reference-item:last-child .icon{
+  border-bottom: none;
+}
+.reference-item .fa{
+  font-size: 2em;
+}
+.reference-item .name{
+  font-size: 1.5em;
+  font-weight: 700;
+  opacity: 0.9;
+}
+.reference-item .title{
+  font-size: 1.2em;
+  font-weight: 400;
+  opacity: 0.6;
+  padding: 3px;
+}
+.reference-item .description{
+  width: 100%;
+  padding-bottom: 20px;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/*******************************************
 MEDIA
 *******************************************/
 @media (min-width: 500px) {
