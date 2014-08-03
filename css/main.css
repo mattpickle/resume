@@ -309,9 +309,9 @@ LANGUAGES
   background: url(../img/star-red.png) no-repeat;
 }
 /*******************************************
-HOBBIES
+ACHIEVEMENTS
 *******************************************/
-.hobby{
+.achievement{
   color: #fff;
   display: inline-block;
   margin-right: 5px;
@@ -321,7 +321,7 @@ HOBBIES
   position: relative;
   font-size: 1.2em;
 }
-.hobby:before{
+.achievement:before{
   content: "\f005";
   font-family: FontAwesome;
   font-style: normal;
