@@ -183,6 +183,9 @@ EXPERIENCES
 .job{
   margin-bottom: 15px;
 }
+.job:last-child{
+  margin-bottom: -25px;
+}
 .job .where{
   font-size: 1.4em;
   font-weight: bold;
