@@ -334,6 +334,28 @@ ACHIEVEMENTS
   left: 7px;
 }
 /*******************************************
+EMPLOYERS
+*******************************************/
+.employer{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 8px 5px 25px;
+  background: #A75265;
+  position: relative;
+  font-size: 1.0em;
+}
+.employer:before{
+  content: "\f121";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  position: absolute;
+  top: 5px;
+  left: 8px;
+}
+/*******************************************
 REFERENCES
 *******************************************/
 .reference-item{
